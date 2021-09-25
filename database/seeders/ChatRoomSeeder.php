@@ -17,5 +17,8 @@ class ChatRoomSeeder extends Seeder
         DB::table('chat_rooms')->insert([
             'name'=>'General'
         ]);
+        DB::table('chat_rooms')->insert([
+            'name'=>'Tach Talk'
+        ]);
     }
 }
