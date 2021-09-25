@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Auth;
 
 class ChatController extends Controller
 {
-    public function room(Request $request){
+    public function rooms(Request $request){
         return ChatRoom::all();
     }
     public function messages(Request $request, $roomId){
